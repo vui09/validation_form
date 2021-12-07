@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header, .footer{
+    background: #712947;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.leftside, .rightside{
+    background: #1F285E;
+    display: flex;
+    flex: 1;
+    margin: 5px 0;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    width: 700px;
+    background: #A9C6E0;
+    margin: 5px;
+}
+
+.wrapper-form{
+    max-width: 365px;
+    margin: 0 auto;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.row span{
+    font-size: 12px;
+    color: red;
+}
+
+.row input{
+    height: 30px;
+    padding: 3px 5px;
+    box-sizing: border-box;
+    width: 190px;
+    margin-left: 20px;
+}
+
+.red {
+    border: 1px solid red;
+}
+.green {
+    border: 1px solid green;
+}
+
+.btn{
+    border-radius: 20px;
+    background: #1F285E;
+    border: 0;
+    color: #fff;
+    width: 100%;
+    padding: 13px 0;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/*ERRORS*/
+.name-error, .surname-error, .middlename-error, email, .email-error, .password-error, .checkpassword-error {
+    color: red;
+    position: absolute;
+    bottom: -15px;
+}
+
+
